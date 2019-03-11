@@ -1,0 +1,29 @@
+/*
+
+  The tsconfig.json file specifies the root files and the 
+  compiler options required to compile the project.
+
+*/
+
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "src",
+    "declaration": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "strict": true,
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
