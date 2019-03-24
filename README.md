@@ -1,3 +1,9 @@
 # React App w/ Slate
 
-## Scroll Spy with Animations using UI Components library
+## Project Focus
+
+### Consuming UI Components
+
+### Docs on Slate Framework from UE4
+
+### Scroll Spy w/ Function components, hooks, and React Spring
